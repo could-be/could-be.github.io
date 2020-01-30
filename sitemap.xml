@@ -3,15 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://could-be.github.io/categories/</loc>
+    <loc>https://could-be.github.io/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://could-be.github.io/</loc>
+    <loc>https://could-be.github.io/tags/gokit/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://could-be.github.io/post/pkit-tool-md/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://could-be.github.io/tags/microservice/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://could-be.github.io/post/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://could-be.github.io/tags/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://could-be.github.io/tags/tool/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://could-be.github.io/post/ts2/</loc>
+    <lastmod>2020-01-31T01:23:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://could-be.github.io/categories/</loc>
   </url>
   
 </urlset>
