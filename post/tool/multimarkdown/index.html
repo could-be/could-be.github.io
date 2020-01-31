@@ -96,44 +96,43 @@ cp &quot;/Users/admin/Library/Application Support/GoLand2019.3/idea-multimarkdow
 unzip idea-multimarkdown.jar -d tmp
 # 按照LicenseAgent.java文件结构,创建 Java项目
 mkdir src/com/vladsch/idea/multimarkdown/license/
-</code></pre><p>▶ tree -f tmp | grep LicenseAgent.java
-│               │   ├── tmp/com/vladsch/idea/multimarkdown/license/LicenseAgent.java</p>
-<pre><code>下载[LicenseAgent.Java]() 文件到上面新建源码目录
-此文件,仿照网友`CrazyBunQnQ`的教程修改,[原文项目地址][https://github.com/CrazyBunQnQ/multimarkdown]
-
-## 为JAVA项目添加依赖
-1. 如果是 Goland 添加Goland依赖路径: `/Applications/GoLand.app/Contents/lib`, 如果是WebStrom, 依赖: `/Applications/WebStorm.app/Contents/lib`
-2. 添加multimarkdown依赖路径为插件目录, 如 Goland的地址为: `~/Library/Application\ Support/GoLand2019.3/idea-multimarkdown/lib/`
-3. 右键~Open Module Setting ~ Project Settings
-![lib](/img/hugo/multimarkdown_java_lib.png)
-![modules](/img/hugo/multimarkdown_java_modules.png)
-![project](/img/hugo/markdown_java_project.png)
-
-## 运行, 打包,替换idea-multimarkdown.jar
-1. Build Module, 生成所需文件 LicenseAgent.class
-</code></pre><p>cp out/production/multimarkdown/com/vladsch/idea/multimarkdown/license/LicenseAgent.class tmp/com/vladsch/idea/multimarkdown/license/
+</code></pre><pre><code>▶ tree -f tmp | grep LicenseAgent.java
+│               │   ├── tmp/com/vladsch/idea/multimarkdown/license/LicenseAgent.java
+</code></pre><p>下载<a href="">LicenseAgent.Java</a> 文件到上面新建源码目录
+此文件,仿照网友<code>CrazyBunQnQ</code>的教程修改,[原文项目地址][https://github.com/CrazyBunQnQ/multimarkdown]</p>
+<h2 id="为java项目添加依赖">为JAVA项目添加依赖</h2>
+<ol>
+<li>如果是 Goland 添加Goland依赖路径: <code>/Applications/GoLand.app/Contents/lib</code>, 如果是WebStrom, 依赖: <code>/Applications/WebStorm.app/Contents/lib</code></li>
+<li>添加multimarkdown依赖路径为插件目录, 如 Goland的地址为: <code>~/Library/Application\ Support/GoLand2019.3/idea-multimarkdown/lib/</code></li>
+<li>右键~Open Module Setting ~ Project Settings
+<img src="/img/hugo/multimarkdown_java_lib.png" alt="lib">
+<img src="/img/hugo/multimarkdown_java_modules.png" alt="modules">
+<img src="/img/hugo/markdown_java_project.png" alt="project"></li>
+</ol>
+<h2 id="运行-打包替换idea-multimarkdownjar">运行, 打包,替换idea-multimarkdown.jar</h2>
+<ol>
+<li>Build Module, 生成所需文件 LicenseAgent.class</li>
+</ol>
+<pre><code>cp out/production/multimarkdown/com/vladsch/idea/multimarkdown/license/LicenseAgent.class tmp/com/vladsch/idea/multimarkdown/license/
 cp src/com/vladsch/idea/multimarkdown/license/LicenseAgent.java tmp/com/vladsch/idea/multimarkdown/license
 cd tmp
 jar cvf idea-multimarkdown.jar *
-cp idea-multimarkdown.jar ~/Library/Application\ Support/GoLand2019.3/idea-multimarkdown/lib/</p>
-<pre><code>
-## 重启 Goland, 验证是否破解生成
-![multimarkdown_crack_success](/img/hugo/multimarkdown_crack_success.png)
+cp idea-multimarkdown.jar ~/Library/Application\ Support/GoLand2019.3/idea-multimarkdown/lib/
+</code></pre><h2 id="重启goland-验证是否破解生成">重启Goland, 验证是否破解生成</h2>
+<p><img src="/img/hugo/multimarkdown_crack_success.png" alt="multimarkdown_crack_success"></p>
+<h2 id="备份破解的文件到-bck-方便下次使用">备份破解的文件到 bck, 方便下次使用</h2>
+<h2 id="自动化脚本-下次升级自动运行替换">自动化脚本, 下次升级自动运行替换</h2>
+<h2 id="记录编译中遇到的问题">记录编译中遇到的问题</h2>
+<ul>
+<li>Error: invalid source release: 11
+<img src="/img/hugo/multimarkdown_java_error0.png" alt="compile_error0">
+<img src="/img/hugo/multimarkdown_java_error1.png" alt="compile_error1">
+<img src="/img/hugomultimarkdown_java_error2.png" alt="compile_error2"></li>
+</ul>
+<h2 id="参考地址">参考地址</h2>
+<p><a href="https://github.com/CrazyBunQnQ/multimarkdown">CrazyBunQnQ multimarkdown</a>
+<a href="https://wfeil.com/post-79.html">老王的博客</a></p>
 
-## 备份破解的文件到 bck, 方便下次使用
-
-## 自动化脚本, 下次升级自动运行替换
-
-## 记录编译中遇到的问题
-* Error: invalid source release: 11
-![compile_error0](/img/hugo/multimarkdown_java_error0.png)
-![compile_error1](/img/hugo/multimarkdown_java_error1.png)
-![compile_error2](/img/hugomultimarkdown_java_error2.png)
-
-## 参考地址
-[CrazyBunQnQ multimarkdown](https://github.com/CrazyBunQnQ/multimarkdown)
-[老王的博客](https://wfeil.com/post-79.html)
-</code></pre>
         </div>
 
         
