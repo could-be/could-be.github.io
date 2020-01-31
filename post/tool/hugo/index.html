@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Categories | Could-be</title>
-    <meta property="og:title" content="Categories - Could-be">
+    <title>hugo技巧 | Could-be</title>
+    <meta property="og:title" content="hugo技巧 - Could-be">
     <meta property="og:type" content="article">
         
+    <meta property="article:published_time" content='2020-02-01T00:35:31&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2020-02-01T00:35:31&#43;08:00'>
         
     <meta name="Keywords" content="MyNook,博客,软件,Go">
-    <meta name="description" content="Categories">
+    <meta name="description" content="hugo技巧">
         
     <meta name="author" content="Joker Qyou">
-    <meta property="og:url" content="https://could-be.github.io/categories/">
+    <meta property="og:url" content="https://could-be.github.io/post/tool/hugo/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml+xml" href="https://could-be.github.io/categories/index.xml" title="Could-be" />
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -47,7 +50,7 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="https://could-be.github.io/">首页</a>
+                    <a class="current" href="https://could-be.github.io/">首页</a>
                     
                     <a  href="https://could-be.github.io/gpg-public-key/" title="GPG">GPG</a>
                     
@@ -67,14 +70,70 @@
 
                 <div class="col-8" id="main">
                     
-<header>
+<div class="res-cons">
     
-        <h1>共有0个分类</h1>
-    
-</header>
+    <article class="post">
+        <header>
+            <h1 class="post-title">hugo技巧</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年2月1日
+        </date>
+        
+        
+        
+        <div class="post-content">
+            <p><code>hugo使用问题汇总</code></p>
+<h2 id="hugo使用技巧httpsblogolowolocomposthugo-quick-start"><a href="https://blog.olowolo.com/post/hugo-quick-start/">Hugo使用技巧</a></h2>
+<h2 id="插入本地图片问题">插入本地图片问题</h2>
+<p>图片存储位置在: /static/img/name.jpg</p>
+<h2 id="引用本地其它文章-引用站点内其他文章">引用本地其它文章; 引用站点内其他文章</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">https://could-be.github.io/post/tool/hugo/ <span style="color:#f92672">=</span>&gt; https://example.com/tool/hugo/
+https://could-be.github.io/post/ts2/ <span style="color:#f92672">=</span>&gt; https://example.com/blog/post/#tldr:caffebad
+/post/tool/hugo/ <span style="color:#f92672">=</span>&gt; /blog/post/
+/post/ts2/#tldr <span style="color:#f92672">=</span>&gt; /blog/post/#tldr:caffebad
+#tldr <span style="color:#f92672">=</span>&gt; <span style="color:#75715e">#tldr:badcaffe       #</span>
+#tldr <span style="color:#f92672">=</span>&gt; <span style="color:#75715e">#tldr:badcaffe    # 本篇段落引用</span>
+
+</code></pre></div>
+        </div>
+
+        
+
+
+        
+
 <div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/pkit-tool/">gokit 自动生成工具</a></li>
+        
+        <li><a href="/post/ts2/">腾讯视频转码</a></li>
+        
+        <li><a href="/post/tool/alfred/">效率工具</a></li>
+        
+        <li><a href="/post/tool/jetbrains/">jetbrains工具</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='https://could-be.github.io/tags/tool'>tool</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
     
 
+    
+    
 </div>
 
                 </div>
@@ -180,6 +239,17 @@
     </div>
 </footer>
 
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 
 <a id="rocket" href="#top"></a>

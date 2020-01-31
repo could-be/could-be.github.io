@@ -13,10 +13,10 @@
     
     <item>
       <title>gokit 自动生成工具</title>
-      <link>https://could-be.github.io/post/pkit-tool-md/</link>
+      <link>https://could-be.github.io/post/pkit-tool/</link>
       <pubDate>Fri, 31 Jan 2020 01:23:30 +0800</pubDate>
       
-      <guid>https://could-be.github.io/post/pkit-tool-md/</guid>
+      <guid>https://could-be.github.io/post/pkit-tool/</guid>
       <description>一个依赖 gokit 的自动生成微服务的小工具 gokit 是一个强大全面的微服务工具集, 使用它可有很方便/快捷的集成一些微服务特性, 合理善用它,可以加快开发的进度</description>
     </item>
     
